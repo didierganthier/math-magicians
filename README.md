@@ -11,7 +11,19 @@
 
 
 ## Live Demo
-[Checkout here](https://didierganthier.github.io/todo-list/)
+<img src=""/>
+
+## Getting Started
+To get a local copy up and running follow these simple example steps.
+1. Clone the project using `git clone` or just copy the command below:
+  ```
+   git clone https://github.com/didierganthier/math-mat.git
+   ```
+2. Open the project with `Visual Studio Code`
+3. Run `npm install` to get the dependencies
+
+   *not sure how to use npm? Read [this](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).*
+
 
 # Getting Started with Create React App
 
@@ -83,3 +95,43 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### Prerequisites
+- IDE (VSCode is suggested.)
+- Node installed and configured.
+- Git installed and configured.
+
+### Setup
+- Clone the repository.
+- Open the project folder in your IDE.
+- Run the commands specified above
+
+
+
+## Authors
+
+👤 **Author1**
+
+- GitHub: [@didierganthier](https://github.com/didierganthier)
+- Twitter: [@didierganthier_](https://twitter.com/didierganthier_)
+- LinkedIn: [didierganthier](https://linkedin.com/in/didierganthier)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Hat tip to anyone whose code was used
+- Inspiration
+- etc
+
+## 📝 License
+
+This project is [MIT](./LICENSE) licensed.
