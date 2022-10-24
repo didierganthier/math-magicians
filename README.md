@@ -7,6 +7,7 @@
 
 - React
 - Linters
+- Tailwind CSS
 - Jest
 
 
