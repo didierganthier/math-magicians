@@ -1,5 +1,6 @@
 /* eslint-disable import/extensions */
-import operate from './operate.js';
+
+import operate from './ operate';
 
 function isNumber(item) {
   return !!item.match(/[0-9]+/);
@@ -17,7 +18,7 @@ function isNumber(item) {
 export default function calculate(obj, buttonName) {
   if (buttonName === 'AC') {
     return {
-      total: null,
+      total: '0',
       next: null,
       operation: null,
     };

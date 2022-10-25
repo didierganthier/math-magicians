@@ -7,7 +7,7 @@ class Display extends React.Component {
   render() {
     return (
       <div className="bg-[#858793] py-5 px-2 border border-white">
-        <p className="flex justify-end text-white">{this.props.displayValue}</p>
+        <p className="flex justify-end text-white">{this.props.result}</p>
       </div>
     );
   }
