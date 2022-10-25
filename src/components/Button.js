@@ -6,16 +6,21 @@ import React, { Component } from 'react';
 export default class Button extends Component {
   constructor(props) {
     super(props);
-    this.state = {
-      value: props.value,
-      className: props.className,
-    };
+    this.changeDisplayValue = this.changeDisplayValue.bind(this);
+  }
+
+  changeDisplayValue() {
+    if (this.props.value === '=') {
+      this.props.showResult();
+    } else {
+      this.props.changeDisplayValue(this.props.value);
+    }
   }
 
   render() {
     return (
-      <button type="button" className={`${this.state.className} min-w-full h-[70px]`}>
-        {this.state.value}
+      <button type="button" onClick={this.changeDisplayValue} className={`${this.props.className} min-w-full h-[70px]`}>
+        {this.props.value}
       </button>
     );
   }
