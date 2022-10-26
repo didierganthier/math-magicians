@@ -1,16 +1,17 @@
-/* eslint-disable react/destructuring-assignment */
-/* eslint-disable react/prop-types */
-/* eslint-disable react/prefer-stateless-function */
 import React from 'react';
+import PropTypes from 'prop-types';
 
-class Display extends React.Component {
-  render() {
-    return (
-      <div className="bg-[#858793] py-5 px-2 border border-white">
-        <p className="flex justify-end text-white">{this.props.result}</p>
-      </div>
-    );
-  }
-}
+const Display = (props) => {
+  const { result } = props;
+  return (
+    <div className="bg-[#858793] py-5 px-2 border border-white">
+      <p className="flex justify-end text-white">{result}</p>
+    </div>
+  );
+};
+
+Display.propTypes = {
+  result: PropTypes.string.isRequired,
+};
 
 export default Display;

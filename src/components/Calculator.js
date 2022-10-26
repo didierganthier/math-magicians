@@ -10,7 +10,6 @@ const Calculator = () => {
   });
 
   const handleClick = (e) => {
-    // this.setState((state) => (calculate(state, e.target.innerText)));
     setState(calculate(state, e.target.innerText));
   };
 
