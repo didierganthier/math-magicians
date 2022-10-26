@@ -1,23 +1,20 @@
-/* eslint-disable react/prop-types */
-/* eslint-disable react/destructuring-assignment */
-/* eslint-disable react/prefer-stateless-function */
-import React, { Component } from 'react';
+import React from 'react';
+import PropTypes from 'prop-types';
 
-export default class Button extends Component {
-  constructor(props) {
-    super(props);
-    this.handleClick = this.handleClick.bind(this);
-  }
+const Button = (props) => {
+  const { handleClick, value, className } = props;
 
-  handleClick() {
-    this.props.handleClick(this.props.value);
-  }
+  return (
+    <button type="button" value={value} onClick={handleClick} className={`${className} min-w-full h-[70px]`}>
+      {value}
+    </button>
+  );
+};
 
-  render() {
-    return (
-      <button type="button" value={this.props.value} onClick={this.props.handleClick} className={`${this.props.className} min-w-full h-[70px]`}>
-        {this.props.value}
-      </button>
-    );
-  }
-}
+Button.propTypes = {
+  handleClick: PropTypes.func.isRequired,
+  value: PropTypes.string.isRequired,
+  className: PropTypes.string.isRequired,
+};
+
+export default Button;
