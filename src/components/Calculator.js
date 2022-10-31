@@ -18,7 +18,7 @@ const Calculator = () => {
   result = next || total;
 
   return (
-    <div className="w-[500px] h-[428px] border">
+    <div className="md:w-2/4 lg:w-2/6 h-full w-full border">
       <Display result={result} />
       <Keypad handleClick={handleClick} />
     </div>
