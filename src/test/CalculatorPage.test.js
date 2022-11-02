@@ -1,7 +1,12 @@
 /* eslint-disable import/extensions */
 import React from 'react';
-import { render, screen } from '@testing-library/react';
+import { render, screen, fireEvent } from '@testing-library/react';
 import Calculator from '../components/Calculator';
+import calculate from '../logic/calculate';
+
+const handleClick = () => {
+  calculate({ total: '0', next: null }, '+');
+};
 
 describe('Calculator', () => {
   test('should render the content correctly', () => {
@@ -22,5 +27,18 @@ describe('Calculator', () => {
     expect(screen.getByText('%')).toBeInTheDocument();
     expect(screen.getByText('.')).toBeInTheDocument();
     expect(screen.getByText('=')).toBeInTheDocument();
+    expect(screen.getByRole('button', { name: /AC/i }));
+  });
+});
+
+describe('Keypad button presses', () => {
+  test('should fire handleClick function when button is pressed', () => {
+    render(<Calculator />);
+
+    fireEvent.change(screen.getByRole('button', { name: /AC/i }), {
+      target: { value: 'JavaScript' },
+    });
+
+    expect(handleClick()).toBeCalled;
   });
 });
