@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+// Expect hidden h1 element in Quote component
+exports[`testing title 1`] = `
+    <h1>404</h1>
+`;
+  
