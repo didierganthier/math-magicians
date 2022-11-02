@@ -34,11 +34,15 @@ describe('Calculator', () => {
 describe('Keypad button presses', () => {
   test('should fire handleClick function when button is pressed', () => {
     render(<Calculator />);
+    const buttonClicked = fireEvent.change(
+      screen.getByRole('button', { name: /AC/i }),
+      {
+        target: { value: 'JavaScript' },
+      },
+    );
 
-    fireEvent.change(screen.getByRole('button', { name: /AC/i }), {
-      target: { value: 'JavaScript' },
-    });
-
-    expect(handleClick()).toBeCalled;
+    if (buttonClicked) {
+      expect(handleClick()).toBeCalled;
+    }
   });
 });
