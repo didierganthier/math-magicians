@@ -1,0 +1,348 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test snapshot should render <NotMatch /> correctly 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <nav
+        class="bg-white border-gray-200 px-2 sm:px-4 py-2.5 dark:bg-gray-900"
+      >
+        <div
+          class="container flex flex-wrap justify-between items-center mx-auto"
+        >
+          <a
+            class="flex items-center"
+            href="/"
+          >
+            <img
+              alt="Math Magicians Logo"
+              class="mr-3 h-6 sm:h-9"
+              src="logo.png"
+            />
+            <span
+              class="self-center text-xl font-semibold whitespace-nowrap dark:text-white"
+            >
+              Math Magicians
+            </span>
+          </a>
+          <button
+            aria-controls="navbar-default"
+            aria-expanded="false"
+            class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+            data-collapse-toggle="navbar-default"
+            type="button"
+          >
+            <span
+              class="sr-only"
+            >
+              Open main menu
+            </span>
+            <svg
+              aria-hidden="true"
+              class="w-6 h-6"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </button>
+          <div
+            class="hidden w-full md:block md:w-auto"
+            id="navbar-default"
+          >
+            <ul
+              class="flex flex-col p-4 mt-4 bg-gray-50 rounded-lg border border-gray-100 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700"
+            >
+              <li>
+                <a
+                  class="block py-2 pr-4 pl-3 text-gray-700 md:hover:text-blue-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                  href="/"
+                >
+                  Home
+                </a>
+              </li>
+              <li>
+                <a
+                  class="block py-2 pr-4 pl-3 text-gray-700 md:hover:text-blue-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                  href="/calculator"
+                >
+                  Calculator
+                </a>
+              </li>
+              <li>
+                <a
+                  class="block py-2 pr-4 pl-3 text-gray-700 md:hover:text-blue-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                  href="/quote"
+                >
+                  Quote
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div
+        class="bg-[#22272D] h-screen pl-12"
+      >
+        <div
+          class="flex flex-col justify-start h-full"
+        >
+          <div
+            class="flex"
+          >
+            <div
+              class="react-typewriter-text-wrap"
+            >
+              <h1
+                class="react-typewriter-text"
+                style="font-family: monospace; font-size: 3.75rem; color: rgb(255, 255, 255); text-shadow: 0 0 10px #fff; margin-top: 5rem;"
+              >
+                <div
+                  class="react-typewriter-pointer false "
+                  style="background-color: white;"
+                />
+              </h1>
+            </div>
+            <span
+              class="animate-wave text-7xl mt-20 hidden"
+            >
+              👋
+            </span>
+          </div>
+          <div
+            class="flex flex-col justify-start mt-10"
+          >
+            <div
+              class="react-typewriter-text-wrap"
+            >
+              <h1
+                class="react-typewriter-text"
+                style="font-family: monospace; font-size: 1rem; color: rgb(255, 255, 255); text-shadow: 0 0 10px #fff;"
+              >
+                <div
+                  class="react-typewriter-pointer false "
+                  style="background-color: white;"
+                />
+              </h1>
+            </div>
+            <div
+              class="react-typewriter-text-wrap"
+            >
+              <h1
+                class="react-typewriter-text"
+                style="font-family: monospace; font-size: 1rem; color: rgb(255, 255, 255); text-shadow: 0 0 10px #fff; margin-top: 20px;"
+              >
+                <div
+                  class="react-typewriter-pointer false "
+                  style="background-color: white;"
+                />
+              </h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <nav
+      class="bg-white border-gray-200 px-2 sm:px-4 py-2.5 dark:bg-gray-900"
+    >
+      <div
+        class="container flex flex-wrap justify-between items-center mx-auto"
+      >
+        <a
+          class="flex items-center"
+          href="/"
+        >
+          <img
+            alt="Math Magicians Logo"
+            class="mr-3 h-6 sm:h-9"
+            src="logo.png"
+          />
+          <span
+            class="self-center text-xl font-semibold whitespace-nowrap dark:text-white"
+          >
+            Math Magicians
+          </span>
+        </a>
+        <button
+          aria-controls="navbar-default"
+          aria-expanded="false"
+          class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+          data-collapse-toggle="navbar-default"
+          type="button"
+        >
+          <span
+            class="sr-only"
+          >
+            Open main menu
+          </span>
+          <svg
+            aria-hidden="true"
+            class="w-6 h-6"
+            fill="currentColor"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              clip-rule="evenodd"
+              d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </button>
+        <div
+          class="hidden w-full md:block md:w-auto"
+          id="navbar-default"
+        >
+          <ul
+            class="flex flex-col p-4 mt-4 bg-gray-50 rounded-lg border border-gray-100 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700"
+          >
+            <li>
+              <a
+                class="block py-2 pr-4 pl-3 text-gray-700 md:hover:text-blue-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                href="/"
+              >
+                Home
+              </a>
+            </li>
+            <li>
+              <a
+                class="block py-2 pr-4 pl-3 text-gray-700 md:hover:text-blue-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                href="/calculator"
+              >
+                Calculator
+              </a>
+            </li>
+            <li>
+              <a
+                class="block py-2 pr-4 pl-3 text-gray-700 md:hover:text-blue-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                href="/quote"
+              >
+                Quote
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div
+      class="bg-[#22272D] h-screen pl-12"
+    >
+      <div
+        class="flex flex-col justify-start h-full"
+      >
+        <div
+          class="flex"
+        >
+          <div
+            class="react-typewriter-text-wrap"
+          >
+            <h1
+              class="react-typewriter-text"
+              style="font-family: monospace; font-size: 3.75rem; color: rgb(255, 255, 255); text-shadow: 0 0 10px #fff; margin-top: 5rem;"
+            >
+              <div
+                class="react-typewriter-pointer false "
+                style="background-color: white;"
+              />
+            </h1>
+          </div>
+          <span
+            class="animate-wave text-7xl mt-20 hidden"
+          >
+            👋
+          </span>
+        </div>
+        <div
+          class="flex flex-col justify-start mt-10"
+        >
+          <div
+            class="react-typewriter-text-wrap"
+          >
+            <h1
+              class="react-typewriter-text"
+              style="font-family: monospace; font-size: 1rem; color: rgb(255, 255, 255); text-shadow: 0 0 10px #fff;"
+            >
+              <div
+                class="react-typewriter-pointer false "
+                style="background-color: white;"
+              />
+            </h1>
+          </div>
+          <div
+            class="react-typewriter-text-wrap"
+          >
+            <h1
+              class="react-typewriter-text"
+              style="font-family: monospace; font-size: 1rem; color: rgb(255, 255, 255); text-shadow: 0 0 10px #fff; margin-top: 20px;"
+            >
+              <div
+                class="react-typewriter-pointer false "
+                style="background-color: white;"
+              />
+            </h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
