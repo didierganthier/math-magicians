@@ -8,5 +8,20 @@ describe('operate(numberOne, numberTwo, operation)', () => {
     expect(operate('7', '2', '-')).toBe('5');
     expect(operate('9', '2', 'x')).toBe('18');
     expect(operate('5', '2', '÷')).toBe('2.5');
+    expect(operate('4', '0', '%')).toBe(
+      "Can't find modulo as can't divide by 0."
+    );
+  });
+});
+
+describe('operate(numberOne, numberTwo, modulus)', () => {
+  it('should return error if second number is 0', () => {
+    expect(operate('4', '0', '%')).toBe(
+      "Can't find modulo as can't divide by 0."
+    );
+  });
+
+  it('should return modulus of given first and second number', () => {
+    expect(operate('7', '4', '%')).toBe('3');
   });
 });
