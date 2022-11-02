@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-expressions */
 /* eslint-disable import/extensions */
 import React from 'react';
 import { render, screen, fireEvent } from '@testing-library/react';

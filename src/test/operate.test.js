@@ -9,7 +9,7 @@ describe('operate(numberOne, numberTwo, operation)', () => {
     expect(operate('9', '2', 'x')).toBe('18');
     expect(operate('5', '2', '÷')).toBe('2.5');
     expect(operate('4', '0', '%')).toBe(
-      "Can't find modulo as can't divide by 0."
+      "Can't find modulo as can't divide by 0.",
     );
   });
 });
@@ -17,7 +17,7 @@ describe('operate(numberOne, numberTwo, operation)', () => {
 describe('operate(numberOne, numberTwo, modulus)', () => {
   it('should return error if second number is 0', () => {
     expect(operate('4', '0', '%')).toBe(
-      "Can't find modulo as can't divide by 0."
+      "Can't find modulo as can't divide by 0.",
     );
   });
 
