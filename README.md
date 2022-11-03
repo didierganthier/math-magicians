@@ -12,7 +12,7 @@
 
 
 ## Live Demo
-<img src="https://media.giphy.com/media/iHD88spVFkL7mZakwa/giphy.gif"/>
+[Checkout here](https://math-magicians-didier.netlify.app/quote)
 
 ## Getting Started
 To get a local copy up and running follow these simple example steps.
